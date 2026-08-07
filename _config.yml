@@ -247,15 +247,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _Categories
-  - scope:
-      path: ""
-      type: Categories
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
 
 # Sass/SCSS
 sass:
@@ -301,7 +292,7 @@ whitelist:
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /Categories/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
