@@ -220,10 +220,10 @@ kramdown:
 
 
 # These settings control the types of collections used by the template
-collections:
-  computer_vision:
-    output: true
-    permalink: /computer-vision/:path/
+# collections:
+#   computer_vision:
+#     output: true
+#     permalink: /computer-vision/:path/
 
 
 
@@ -301,7 +301,7 @@ whitelist:
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /Categories/
 tag_archive:
   type: liquid
   path: /tags/
