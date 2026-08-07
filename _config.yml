@@ -221,9 +221,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  Categories:
+  computer_vision:
     output: true
-    permalink: /:collection/:path/
+    permalink: /computer-vision/:path/
 
 
 
